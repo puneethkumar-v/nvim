@@ -25,7 +25,7 @@ vim.keymap.set("n", "<leader>sk", "<C-w>+") -- make split windows height taller
 vim.keymap.set("n", "<leader>sl", "<C-w>>5") -- make split windows width bigger 
 vim.keymap.set("n", "<leader>sh", "<C-w><5") -- make split windows width smaller
 
-vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>')
 
 
 -- visually move line up and down
